@@ -1,0 +1,7 @@
+#
+# PageTS for gql-partner
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gql_partner/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gql_partner/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gql_partner/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gql_partner/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">

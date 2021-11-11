@@ -1,0 +1,107 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:gql_partner/Resources/Public/Images/logo.svg
+        fileInverted = EXT:gql_partner/Resources/Public/Images/logo-inverted.svg
+        height = 52
+        width = 192
+        alt = gql-partner
+        linktitle = gql-partner
+    }
+    favicon {
+        file = EXT:gql_partner/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:gql_partner/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:gql_partner/Resources/Private/Partials/Page/
+        templateRootPath = EXT:gql_partner/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:gql_partner/Resources/Private/Layouts/
+        partialRootPath = EXT:gql_partner/Resources/Private/Partials/
+        templateRootPath = EXT:gql_partner/Resources/Private/Templates/
+    }
+}
+
+
+##plugin.tx_indexedsearch {
+  view {
+    partialRootPaths {
+        10 = EXT:indexed_search/Resources/Private/Partials/
+        20 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
+        21 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/Partials/
+        }
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:gql_partner/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:gql_partner/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:gql_partner/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #eb3e4a
+    secondary = #013859
+}
+
+
+
+plugin.tx_indexedsearch {
+  templateFile = EXT:gql_partner/Resources/Private/Layouts/Page/Default.html
+
+    forwardSearchWordsInResultLink= 0
+    show {
+        rules = 0
+        advancedSearchLink = 0
+    }
+
+    search {
+        rootPidList = 1
+        exactCount = 1
+        defaultFreeIndexUidList >
+        }
+  }
+
+search_root = 1
+search_result = 26
+
+
+###################
+#### KE_SEARCH ####
+###################
+// load the new template path for ke_search +ext
+// load the new partial path for ke_search +ext
+
+plugin.tx_kesearch_pi1 {
+  view {
+    templateRootPath = EXT:gql_partner/Resources/Private/Extensions/ke_search/Templates/
+    partialRootPath = EXT:gql_partner/Resources/Private/Extensions/ke_search/Partials/
+    layoutRootPath = EXT:gql_partner/Resources/Private/Extensions/ke_search/Layouts/
+  }
+}

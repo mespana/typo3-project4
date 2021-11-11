@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.1" version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2018-04-10T00:02:05Z" product-name="grid-for-gridelements" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="onecols.title" approved="yes">
+        <source>1 column</source>
+        <target state="final">Eine Spalte</target>
+      </trans-unit>
+      <trans-unit id="onecols.description" approved="yes">
+        <source>Add a 1 column grid</source>
+        <target state="final">Fügt ein Einspaltiges Raster hinzu</target>
+      </trans-unit>
+      <trans-unit id="twocols.title" approved="yes">
+        <source>2 columns</source>
+        <target state="final">Zwei Spalten</target>
+      </trans-unit>
+      <trans-unit id="twocols.description" approved="yes">
+        <source>Add a 2 columns grid</source>
+        <target state="final">Fügt ein zweispaltiges Raster hinzu</target>
+      </trans-unit>
+      <trans-unit id="threecols.title" approved="yes">
+        <source>3 columns</source>
+        <target state="final">Drei Spalten</target>
+      </trans-unit>
+      <trans-unit id="threecols.description" approved="yes">
+        <source>Add a 3 columns grid</source>
+        <target state="final">Fügt ein dreispaltiges Raster hinzu</target>
+      </trans-unit>
+      <trans-unit id="fourcols.title" approved="yes">
+        <source>4 columns</source>
+        <target state="final">Vier Spalten</target>
+      </trans-unit>
+      <trans-unit id="fourcols.description" approved="yes">
+        <source>Add a 4 columns grid</source>
+        <target state="final">Fügt ein vierspaltiges Raster hinzu</target>
+      </trans-unit>
+      <trans-unit id="backend.firstColumn" approved="yes">
+        <source>First column</source>
+        <target state="final">Erste Spalte</target>
+      </trans-unit>
+      <trans-unit id="backend.secondColumn" approved="yes">
+        <source>Second column</source>
+        <target state="final">Zweite Spalte</target>
+      </trans-unit>
+      <trans-unit id="backend.thirdColumn" approved="yes">
+        <source>Third column</source>
+        <target state="final">Dritte Spalte</target>
+      </trans-unit>
+      <trans-unit id="backend.fourthColumn" approved="yes">
+        <source>Fourth column</source>
+        <target state="final">Vierte Spalte</target>
+      </trans-unit>
+      <trans-unit id="grid.twocols.title" approved="yes">
+        <source>2 columns</source>
+        <target state="final">Zwei Spalten</target>
+      </trans-unit>
+      <trans-unit id="grid.label.colratio" approved="yes">
+        <source>Grid Ratio</source>
+        <target state="final">Rasterverhältnis</target>
+      </trans-unit>
+      <trans-unit id="extsettings.gridConfig" approved="yes">
+        <source>Path to Grid Config JSON</source>
+        <target state="final">Pfad zur Grid-Konfigurations JSON</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

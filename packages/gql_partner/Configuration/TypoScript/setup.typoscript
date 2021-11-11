@@ -1,0 +1,116 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    includeCSS {
+    theme = EXT:gql_partner/Resources/Public/Scss/Theme/theme.scss
+    css = EXT:gql_partner/Resources/Public/Css/all.css
+##  stylesCSS = EXT:gql_partner/Resources/Public/Fontawesome/Css/syles.css
+##  fontawesome = EXT:gql_partner/Resources/Public/Fontawesome/Css/all.css
+
+    }
+
+    includeCSSLibs {
+    bootstrap4 = https://use.fontawesome.com/releases/v5.7.0/css/all.css
+    bootstrap4.external = 1
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        gql_partner_scripts = EXT:gql_partner/Resources/Public/JavaScript/Dist/scripts.js
+    }
+}
+
+### Library_lib.searchbox.ts
+
+lib.headerSearch = USER
+lib.headerSearch.value >
+lib.headerSearch {
+     userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+     vendorName = TYPO3\CMS
+     extensionName = IndexedSearch
+     pluginName = Pi2
+
+     switchableControllerActions {
+             Search {
+                   1 = form
+                   2 = search
+             }
+     }
+     view =< plugin.tx_indexedsearch.view
+     view {
+            templateRootPaths {
+                20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/
+                21 = {$plugin.bootstrap_package.view.templateRootPath}IndexedSearch/
+            }
+            partialRootPaths {
+                20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/Partials/
+                21 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
+            }
+            layoutRootPaths {
+                20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/
+                21 = {$plugin.bootstrap_package.view.layoutRootPath}IndexedSearch/
+            }
+        }
+        features {
+                 requireCHashArgumentForActionArguments = 0
+             }
+
+        settings =< plugin.tx_indexedsearch.settings
+        settings.targetPid = 26
+    }
+
+
+# Configuration for indexedsearch plugin
+
+plugin.tx_indexedsearch {
+  templateFile = EXT:gql_partner/Resources/Private/Layouts/Page/Default.html
+
+    forwardSearchWordsInResultLink= 0
+    show {
+        rules = 0
+        advancedSearchLink = 0
+    }
+
+    search {
+        rootPidList = 1
+        exactCount = 1
+        defaultFreeIndexUidList >
+        }
+    }
+
+
+###################
+#### KE_SEARCH ####
+###################
+
+
+    ## Create TypoScript Object
+
+lib.headerSearch_plugin = COA_INT
+lib.headerSearch_plugin {
+    10 < plugin.tx_kesearch_pi1
+
+    10.resultPage = 26
+
+    10.cssFile = EXT:ke_search/Resources/Public/Css/ke_search_pi1.css
+
+    10.loadFlexformsFromOtherCE = 46 // Search form plugin UID
+  }

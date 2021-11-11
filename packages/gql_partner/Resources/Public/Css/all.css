@@ -1,0 +1,257 @@
+
+.footer-section-meta {
+color: #ffffff;
+/*background-color: #31436B;*/
+background-color: #2b2b2b;
+}
+
+.footer-section-meta a:not(.btn) {
+color: #bea34d;
+}
+
+.footer-meta .meta-menu li ul {
+  text-align: left;
+}
+
+.tx-powermail fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+}
+
+.tx-powermail .radio {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.tx-powermail .checkbox-inline, .radio.radio-inline {
+  padding-left: 20px;
+}
+
+.tx-powermail .container-fluid {
+    padding: 0;
+    margin: 0 -5px;
+}
+
+.tx-powermail h3, .tx-powermail legend {
+    display: none;
+}
+
+.tx-powermail label {
+    color: rgba(133, 121, 73, 0.6);
+    font-weight: normal;
+}
+
+.tx-powermail .control-label {
+    display: none;
+}
+
+.tx-powermail .checkbox label {
+    display: inline-block;
+}
+
+.tx-powermail .col-wrap {
+    padding: 0;
+}
+
+.tx-powermail .col-wrap > div {
+    padding: 0 5px 0 0;
+}
+
+.tx-powermail textarea {
+    resize: none;
+}
+
+.tx-powermail .radio-inline, .tx-powermail .checkbox-inline {
+    padding-top: 0;
+    font-size: 14px;
+    min-height: inherit;
+}
+
+.tx-powermail .radio-inline label, .tx-powermail .checkbox-inline label {
+    min-height: inherit;
+}
+
+.tx-powermail .radio-inline:first-child, .tx-powermail .checkbox-inline:first-child {
+    padding-left: 0;
+}
+
+.tx-powermail .form-group {
+    margin-bottom: 10px;
+}
+
+.tx-powermail .form-control {
+    background: none rgba(255, 255, 255, 0.7);
+}
+
+.tx-powermail .form-control:focus {
+    background: none white;
+    border-color: #004f9f;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.tx-powermail .powermail_fieldwrap_type_radio {
+    margin-bottom: 0;
+}
+
+.tx-powermail .powermail_fieldwrap_type_text {
+    font-size: 14px;
+    margin: 0px 0px 0 20px;
+   }
+
+.tx-powermail .powermail_fieldwrap_type_submit {
+    text-align: center;
+}
+
+.tx-powermail .parsley-errors-list {
+    display: none !important;
+}
+
+.tx-powermail .powermail_submit.btn {
+    font-size: 16px;
+}
+
+.powermail_fieldwrap_type_captcha label {
+    padding: 0 15px;
+}
+
+.powermail_fieldwrap_type_captcha img {
+    margin: 10px auto 20px auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .tx-powermail .col-wrap > div {
+        padding: 0 !important;
+    }
+}
+
+.form-control .control-label, .form-control label {
+    color: #1d1d1b;
+}
+
+.tx-powermail label {
+    color: #1d1d1b;
+}
+
+.form-control::-moz-placeholder {
+    color: rgba(29, 29, 27, 0.71);
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder, .form-control::-webkit-input-placeholder {
+    color: rgba(29, 29, 27, 0.71);
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+
+.powermail_form powermail_form_1 form-horizontal {
+    position: relative;
+}
+
+.powermail_form powermail_form_1 .powermail_fieldwrap_type_html {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(59, 60, 67, 0.8);
+}
+
+.powermail_form powermail_form_1 .powermail_fieldwrap_type_html > div {
+    padding: 5em;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.powermail_form powermail_form_1 .powermail_fieldwrap_type_html > div a {
+    color: #b8e0ec;
+}
+
+
+.powermail_submit.btn.btn-xs.btn-blue {
+    font-size: 16px;
+}
+
+.section-column {
+width: 100%;
+padding-left: 0px;
+padding-right: 0px;
+
+.tx-indexedsearch-res {
+}
+
+.tx-indexedsearch-res table {
+}
+
+.tx-indexedsearch-res hr {
+    display:none
+}
+
+.tx-indexedsearch-res > div {
+    border-bottom: 2px solid transparent;
+    padding: 15px 15px 0 15px;
+    margin-bottom: 20px;
+}
+
+.tx-indexedsearch-res > div:hover {
+    border-bottom: 2px solid #00AE51;
+}
+
+.tx-indexedsearch-res .tx-indexedsearch-res, .tx-indexedsearch-browsebox {
+    background-color: rgb(255, 255, 255);
+}
+
+.tx-indexedsearch-res .tx-indexedsearch-icon {
+    display: none;
+    visibility: hidden;
+}
+
+.tx-indexedsearch-res .tx-indexedsearch-title a {
+    color: #00AE51;
+    text-decoration: none;
+    font-family: 'proxima_nova_softbold', sans-serif;
+}
+
+.tx-indexedsearch-res .tx-indexedsearch-descr {
+    font-style: normal !important;
+}
+
+.tx-indexedsearch-res .tx-indexedsearch-descr strong {
+    color: #005699 !important;
+}
+
+.tx-indexedsearch-searchbox {
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 32px;
+    margin-bottom: 30px;
+    border-bottom:1px solid rgb(0, 174, 81)
+}
+
+.tx-indexedsearch-searchbox table {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.tx-indexedsearch-searchbox .input-group {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.tx-indexedsearch-percent {
+    display: none;
+}*/

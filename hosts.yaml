@@ -1,0 +1,8 @@
+// Configure TYPO3 production site
+109730.webhosting40.1blu.de:
+  host: ftp109730-2622751@marianaespana.com
+  stage: production
+  branch: master
+  user: ftp109730-2622751
+  identityFile: ~
+  deploy_path: ~/www/marianaespana/proyectos/typo3-project4/
