@@ -11,7 +11,7 @@ page {
     logo {
         file = EXT:gql_partner/Resources/Public/Images/logo.svg
         fileInverted = EXT:gql_partner/Resources/Public/Images/logo-inverted.svg
-        height = 52
+        height = 102
         width = 192
         alt = gql-partner
         linktitle = gql-partner
@@ -38,7 +38,6 @@ plugin.bootstrap_package {
     }
 }
 
-
 ##plugin.tx_indexedsearch {
   view {
     partialRootPaths {
@@ -48,7 +47,6 @@ plugin.bootstrap_package {
         }
     }
 }
-
 
 ########################
 ### CONTENT ELEMENTS ###
@@ -68,40 +66,4 @@ plugin.bootstrap_package_contentelements {
 plugin.bootstrap_package.settings.scss {
     primary = #eb3e4a
     secondary = #013859
-}
-
-
-
-plugin.tx_indexedsearch {
-  templateFile = EXT:gql_partner/Resources/Private/Layouts/Page/Default.html
-
-    forwardSearchWordsInResultLink= 0
-    show {
-        rules = 0
-        advancedSearchLink = 0
-    }
-
-    search {
-        rootPidList = 1
-        exactCount = 1
-        defaultFreeIndexUidList >
-        }
-  }
-
-search_root = 1
-search_result = 26
-
-
-###################
-#### KE_SEARCH ####
-###################
-// load the new template path for ke_search +ext
-// load the new partial path for ke_search +ext
-
-plugin.tx_kesearch_pi1 {
-  view {
-    templateRootPath = EXT:gql_partner/Resources/Private/Extensions/ke_search/Templates/
-    partialRootPath = EXT:gql_partner/Resources/Private/Extensions/ke_search/Partials/
-    layoutRootPath = EXT:gql_partner/Resources/Private/Extensions/ke_search/Layouts/
-  }
 }

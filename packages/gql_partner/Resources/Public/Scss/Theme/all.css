@@ -1,8 +1,14 @@
 
+.navbar-mainnavigation {
+box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.15);
+padding: 0;
+}
+
+.footer-section-content-column-left, .footer-section-content-column-middle, .footer-section-content-column-right
 .footer-section-meta {
 color: #ffffff;
-/*background-color: #31436B;*/
-background-color: #2b2b2b;
+background-color: #31436B;
+
 }
 
 .footer-section-meta a:not(.btn) {
@@ -12,6 +18,14 @@ color: #bea34d;
 .footer-meta .meta-menu li ul {
   text-align: left;
 }
+
+.section-column {
+width: 100%;
+padding-left: 0;
+padding-right: 0;
+
+}
+
 
 .tx-powermail fieldset {
   display: block;
@@ -254,4 +268,4 @@ padding-right: 0px;
 
 .tx-indexedsearch-percent {
     display: none;
-}*/
+}

@@ -17,8 +17,8 @@ page {
     }
 
     includeCSSLibs {
-    bootstrap4 = https://use.fontawesome.com/releases/v5.7.0/css/all.css
-    bootstrap4.external = 1
+##  bootstrap4 = https://use.fontawesome.com/releases/v5.7.0/css/all.css
+##  bootstrap4.external = 1
     }
 
     includeJSLibs {
@@ -38,44 +38,28 @@ page {
     }
 }
 
+
 ### Library_lib.searchbox.ts
 
 lib.headerSearch = USER
-lib.headerSearch.value >
 lib.headerSearch {
      userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
-     vendorName = TYPO3\CMS
      extensionName = IndexedSearch
      pluginName = Pi2
-
+     vendorName = TYPO3\CMS
      switchableControllerActions {
              Search {
                    1 = form
                    2 = search
              }
      }
-     view =< plugin.tx_indexedsearch.view
-     view {
-            templateRootPaths {
-                20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/
-                21 = {$plugin.bootstrap_package.view.templateRootPath}IndexedSearch/
-            }
-            partialRootPaths {
-                20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/Partials/
-                21 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
-            }
-            layoutRootPaths {
-                20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/
-                21 = {$plugin.bootstrap_package.view.layoutRootPath}IndexedSearch/
-            }
-        }
-        features {
-                 requireCHashArgumentForActionArguments = 0
-             }
+     features {
+         requireCHashArgumentForActionArguments = 0
+     }
 
-        settings =< plugin.tx_indexedsearch.settings
-        settings.targetPid = 26
-    }
+     settings =< plugin.tx_indexedsearch.settings
+     settings.targetPid = 26
+}
 
 
 # Configuration for indexedsearch plugin
@@ -97,12 +81,45 @@ plugin.tx_indexedsearch {
     }
 
 
+  _CSS_DEFAULT_STYLE >
+  _DEFAULT_PI_VARS {
+    results = 10
+  }
+
+  ## Due to a bug in TYPO3 9.5.19 it is necessary to overwrite the language label for the number of search results
+  ## See https://forge.typo3.org/issues/91620
+  _LOCAL_LANG {
+    de {
+      displayResults = Anzeige der Ergebnisse <strong>%1$s bis %2$s</strong> von insgesamt <strong>%3$s</strong>
+    }
+  }
+}
+
+plugin.tx_indexedsearch {
+   view {
+        templateRootPaths {
+            20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/
+            21 = {$plugin.bootstrap_package.view.templateRootPath}IndexedSearch/
+        }
+        partialRootPaths {
+            20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/Partials/
+            21 = {$plugin.bootstrap_package.view.partialRootPath}IndexedSearch/
+        }
+        layoutRootPaths {
+            20 = EXT:gql_partner/Resources/Private/Extensions/IndexedSearch/
+            21 = {$plugin.bootstrap_package.view.layoutRootPath}IndexedSearch/
+        }
+    }
+}
+
+
+
 ###################
 #### KE_SEARCH ####
 ###################
 
 
-    ## Create TypoScript Object
+## Create TypoScript Object
 
 lib.headerSearch_plugin = COA_INT
 lib.headerSearch_plugin {
@@ -110,7 +127,7 @@ lib.headerSearch_plugin {
 
     10.resultPage = 26
 
-    10.cssFile = EXT:ke_search/Resources/Public/Css/ke_search_pi1.css
+    10.cssFile = EXT:ke_search/res/ke_search_pi1.css
 
     10.loadFlexformsFromOtherCE = 46 // Search form plugin UID
-  }
+}
