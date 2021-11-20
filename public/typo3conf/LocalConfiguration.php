@@ -49,18 +49,6 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
-        'grid_for_gridelements' => [
-            'gridConfig' => 'EXT:grid_for_gridelements/Resources/Private/Grid/Grid.json',
-        ],
-        'gridelements' => [
-            'additionalStylesheet' => '',
-            'disableAutomaticUnusedColumnCorrection' => '0',
-            'disableCopyFromPageButton' => '0',
-            'disableDragInWizard' => '0',
-            'fluidBasedPageModule' => '0',
-            'nestingInListModule' => '0',
-            'overlayShortcutTranslation' => '0',
-        ],
         'indexed_search' => [
             'catdoc' => '/usr/bin/',
             'debugMode' => '0',

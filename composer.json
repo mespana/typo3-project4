@@ -20,11 +20,11 @@
 	},
 	"require": {
 		"dirkpersky/typo3-rte-ckeditor-fontawesome": "^11.5",
+		"dmind/cookieman": "^2.9",
 		"georgringer/news": "^8.6",
 		"gowords/gql-partner": "^1.0",
 		"helhum/typo3-console": "^6.0.0",
 		"in2code/powermail": "^8.4",
-		"schmidtwebmedia/grid-for-gridelements": "^2.1",
 		"tpwd/ke_search": "^4.0",
 		"tpwd/ke_search_hooks": "^4.0",
 		"typo3/cms-about": "^10.4",

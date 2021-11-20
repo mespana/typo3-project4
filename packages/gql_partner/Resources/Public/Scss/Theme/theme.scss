@@ -22,8 +22,6 @@ box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.15);
 padding: 0;
 }
 
-
-
 .footer-section-content {
   color: #ffffff;
   background-color:$primary;
@@ -32,6 +30,14 @@ padding: 0;
 .footer-section-content-column-left, .footer-section-content-column-middle, .footer-section-content-column-right
 .footer-section-meta {
   color: #ffffff;
+}
+
+.footer-section-content a:not(.btn) {
+color: darkgray;
+}
+
+.footer-section-content a:not(.btn):hover, .footer-section-content a:not(.btn):focus {
+color: goldenrod;
 }
 
 .section-column {
@@ -63,8 +69,19 @@ padding-right: 0;
   }
 
 .footer-copyright p {
-      text-align: center;
+    text-align: center;
   }
 .footer-section-content a:not(.btn) {
       color:#fff
+  }
+
+.text-column a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+.text-column a:hover {
+    color: inherit;
+    text-decoration: underline;
   }

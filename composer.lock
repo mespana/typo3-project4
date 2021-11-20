@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8091a32df1b696e8d6e40f3d4d76fc94",
+    "content-hash": "55457000c63e978484767180764302a0",
     "packages": [
         {
             "name": "bk2k/bootstrap-package",
@@ -225,6 +225,81 @@
                 }
             ],
             "time": "2021-10-26T08:33:02+00:00"
+        },
+        {
+            "name": "dmind/cookieman",
+            "version": "2.9.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dmind-gmbh/extension-cookieman.git",
+                "reference": "0a694bbc0c03371c8212bffe399de3fa4ef2f535"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dmind-gmbh/extension-cookieman/zipball/0a694bbc0c03371c8212bffe399de3fa4ef2f535",
+                "reference": "0a694bbc0c03371c8212bffe399de3fa4ef2f535",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2",
+                "typo3/cms-core": "^10.4.0"
+            },
+            "replace": {
+                "typo3-ter/cookieman": "self.version"
+            },
+            "require-dev": {
+                "bk2k/extension-helper": "^1.0",
+                "browserstack/browserstack-local": "dev-master",
+                "codeception/codeception": "^4.1",
+                "codeception/module-asserts": "^1.3",
+                "codeception/module-webdriver": "^1.1",
+                "dmind/cookieman-test": "@dev",
+                "dmind/cookieman-test-bootstrap3-banner": "@dev",
+                "dmind/cookieman-test-bootstrap3-modal": "@dev",
+                "dmind/cookieman-test-bootstrap4-modal": "@dev",
+                "dmind/cookieman-test-bootstrap5-modal": "@dev",
+                "dmind/cookieman-test-customtheme": "@dev",
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "helhum/typo3-console": "^6.3",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "roave/security-advisories": "dev-master",
+                "typo3/cms-install": "^10.0 || dev-master",
+                "typo3/cms-tstemplate": "^10.0 || dev-master",
+                "typo3/testing-framework": "^6.2"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-10lts": "2.9.x-dev"
+                },
+                "typo3/cms": {
+                    "extension-key": "cookieman",
+                    "web-dir": ".build/public",
+                    "app-dir": ".build"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dmind\\Cookieman\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jonas Eberle",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides a user consent popup. It asks for approval to include tracking objects (cookies, images or any HTML) and includes the objects when consented. It also removes cookies after the consent has been revoked.",
+            "support": {
+                "issues": "https://github.com/dmind-gmbh/extension-cookieman/issues",
+                "source": "https://github.com/dmind-gmbh/extension-cookieman"
+            },
+            "time": "2021-10-14T16:10:58+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -983,57 +1058,6 @@
             "transport-options": {
                 "relative": true
             }
-        },
-        {
-            "name": "gridelementsteam/gridelements",
-            "version": "10.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.com/coderscare/gridelements.git",
-                "reference": "5a67ec603c3b4b38fb16344cfe3c2f2606b21c38"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/coderscare%2Fgridelements/repository/archive.zip?sha=5a67ec603c3b4b38fb16344cfe3c2f2606b21c38",
-                "reference": "5a67ec603c3b4b38fb16344cfe3c2f2606b21c38",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/cms-backend": "^10",
-                "typo3/cms-core": "^10",
-                "typo3/cms-frontend": "^10",
-                "typo3/cms-recordlist": "^10"
-            },
-            "replace": {
-                "gridelementsteam/gridelements": "self.version",
-                "typo3-ter/gridelements": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "extension-key": "gridelements"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GridElementsTeam\\Gridelements\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "This extension integrates the grid layout concept also to regular content elements - the grid elements. It offers a lot of new features like advanced drag & drop or real references, that improve the usability of the page and list module to speed up the daily work with the backend.",
-            "homepage": "https://forge.typo3.org/projects/extension-gridelements2",
-            "keywords": [
-                "Gridelements",
-                "TYPO3 CMS",
-                "grids"
-            ],
-            "support": {
-                "issues": "https://forge.typo3.org/projects/extension-gridelements2/issues"
-            },
-            "time": "2021-07-01T20:21:39+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2268,62 +2292,6 @@
             ],
             "description": "A polyfill for getallheaders.",
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "schmidtwebmedia/grid-for-gridelements",
-            "version": "2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/SchmidtWebmedia/grid-for-gridelements.git",
-                "reference": "8141ca40f6aca7c00afcb3d0c78c2109379aea54"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SchmidtWebmedia/grid-for-gridelements/zipball/8141ca40f6aca7c00afcb3d0c78c2109379aea54",
-                "reference": "8141ca40f6aca7c00afcb3d0c78c2109379aea54",
-                "shasum": ""
-            },
-            "require": {
-                "gridelementsteam/gridelements": "^10.0.0",
-                "typo3/cms-core": "^10.4"
-            },
-            "replace": {
-                "typo3-ter/grid-for-gridelements": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "extra": {
-                "typo3/cms": {
-                    "extension-key": "grid_for_gridelements"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SchmidtWebmedia\\GridForGridElements\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Schmidt",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Add an easy to use grid element with GridElements. It's Framework independent. Prepared for Bootstrap v4.",
-            "keywords": [
-                "Gridelements",
-                "bootstrap",
-                "extension",
-                "grid",
-                "typo3"
-            ],
-            "support": {
-                "issues": "https://github.com/SchmidtWebmedia/grid-for-gridelements/issues",
-                "source": "https://github.com/SchmidtWebmedia/grid-for-gridelements/tree/2.1.1"
-            },
-            "time": "2021-08-05T14:34:04+00:00"
         },
         {
             "name": "scssphp/scssphp",
