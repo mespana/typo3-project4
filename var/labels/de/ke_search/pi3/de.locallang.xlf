@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="EN" datatype="plaintext" original="messages" date="2018-07-21T01:33:32Z" product-name="ke_search" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="pi_title" xml:space="preserve" approved="yes">
+        <source>Faceted Search</source>
+      <target state="translated">Facettierte Suche</target></trans-unit>
+      <trans-unit id="pi_plus_wiz_description" xml:space="preserve" approved="yes">
+        <source>Show multiselection.</source>
+      <target state="translated">Mehrfachauswahl anzeigen.</target></trans-unit>
+      <trans-unit id="ff.main" xml:space="preserve" approved="yes">
+        <source>General</source>
+      <target state="translated">Konfiguration der Suchergebnisse</target></trans-unit>
+      <trans-unit id="ff.loadFlexformsFromOtherCE" xml:space="preserve" approved="yes">
+        <source>Load flexforms config from this search box</source>
+      <target state="translated">Flexform-Konfiguration von dieser Suchbox laden</target></trans-unit>
+    </body>
+  </file>
+</xliff>

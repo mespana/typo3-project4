@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="EN" datatype="plaintext" original="messages" date="2015-05-30T07:50:18Z" product-name="ke_search" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="wrap.alttitle" xml:space="preserve" approved="yes">
+        <source>Wrap for frontend rendering</source>
+      <target state="translated">Wrap für Frontend-Darstellung</target></trans-unit>
+      <trans-unit id="wrap.description" xml:space="preserve" approved="yes">
+        <source>HTML code, wrap for frontend rendering of a filter. Example: &lt;class style="myclass"&gt;|&lt;/div&gt;.</source>
+      <target state="translated">HTML-Code, welcher den HTML-Code umschließt, der zur Anzeige des Filters erstellt wird. Beispiel: &lt;class style="myclass"&gt;|&lt;/div&gt;.</target></trans-unit>
+      <trans-unit id="wrap.details" xml:space="preserve">
+        <source/>
+      </trans-unit>
+      <trans-unit id="wrap.syntax" xml:space="preserve">
+        <source/>
+      </trans-unit>
+      <trans-unit id="wrap.image_descr" xml:space="preserve">
+        <source/>
+      </trans-unit>
+      <trans-unit id="wrap.image" xml:space="preserve">
+        <source/>
+      </trans-unit>
+      <trans-unit id="wrap.seeAlso" xml:space="preserve">
+        <source/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

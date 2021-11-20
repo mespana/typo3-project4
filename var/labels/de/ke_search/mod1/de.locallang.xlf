@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="EN" datatype="plaintext" original="messages" date="2016-05-07T01:33:38Z" product-name="ke_search" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Faceted Search</source>
+      <target state="translated">Facettierte Suche</target></trans-unit>
+      <trans-unit id="function1" xml:space="preserve" approved="yes">
+        <source>Start indexing</source>
+      <target state="translated">Indizierung anstossen</target></trans-unit>
+      <trans-unit id="function2" xml:space="preserve" approved="yes">
+        <source>Indexed content</source>
+      <target state="translated">Indizierte Inhalte</target></trans-unit>
+      <trans-unit id="function3" xml:space="preserve" approved="yes">
+        <source>Index table information</source>
+      <target state="translated">Informationen über Index-Tabelle</target></trans-unit>
+      <trans-unit id="function4" xml:space="preserve" approved="yes">
+        <source>Searchword statistics</source>
+      <target state="translated">Suchwort-Statistik</target></trans-unit>
+      <trans-unit id="function5" xml:space="preserve" approved="yes">
+        <source>Clear search index</source>
+      <target state="translated">Suchindex leeren</target></trans-unit>
+      <trans-unit id="function6" xml:space="preserve" approved="yes">
+        <source>Last indexing report</source>
+      <target state="translated">Bericht der letzten Indexierung</target></trans-unit>
+      <trans-unit id="select_a_page" xml:space="preserve" approved="yes">
+        <source>Please select a page.</source>
+      <target state="translated">Bitte wählen Sie eine Seite aus.</target></trans-unit>
+      <trans-unit id="start_indexer" xml:space="preserve" approved="yes">
+        <source>Start Indexer</source>
+      <target state="translated">Indexer starten</target></trans-unit>
+      <trans-unit id="not_allowed_remove_indexer_lock" xml:space="preserve" approved="yes">
+        <source>You are not allowed to remove the indexer lock! This is for admins only!</source>
+      <target state="translated">Sie haben keine Berechtigung, die Indexersperre zu entfernen! Diese Funktions ist nur für Admins verfügbar!</target></trans-unit>
+      <trans-unit id="no_indexer_configurations" xml:space="preserve" approved="yes">
+        <source>No indexer configurations have been found. Please create an indexer configuration record first!</source>
+      <target state="translated">Es wurden keine Indexer-Konfigurationen gefunden. Bitte erstellen Sie zunächst eine Indexer-Konfiguration!</target></trans-unit>
+      <trans-unit id="index_contains" xml:space="preserve" approved="yes">
+        <source>The index currently contains</source>
+      <target state="translated">Der Index enthält derzeit</target></trans-unit>
+      <trans-unit id="last_indexing" xml:space="preserve" approved="yes">
+        <source>Last indexing was done on</source>
+      <target state="translated">Die letzte Indexierung wurde durchgeführt am</target></trans-unit>
+      <trans-unit id="records" xml:space="preserve" approved="yes">
+        <source>records</source>
+      <target state="translated">Datensätze</target></trans-unit>
+      <trans-unit id="configurations_found" xml:space="preserve" approved="yes">
+        <source>Indexer configurations have been found:</source>
+      <target state="translated">Folgende Indexer-Konfigurationen wurden gefunden:</target></trans-unit>
+    </body>
+  </file>
+</xliff>

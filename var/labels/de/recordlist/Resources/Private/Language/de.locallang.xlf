@@ -27,6 +27,10 @@
         <source>Create folder</source>
         <target state="final">Ordner erstellen</target>
       </trans-unit>
+      <trans-unit id="row.deletePlaceholder.title" resname="row.deletePlaceholder.title" approved="yes">
+        <source>The live pendant of this record will be deleted when this workspace record is published.</source>
+        <target state="final">Die Live-Version des Datensatzes wird gelöscht, wenn diese Arbeits-Version des Datensatzes veröffentlicht wird.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

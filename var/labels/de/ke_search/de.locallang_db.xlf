@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2018-07-21T01:33:32Z" product-name="ke_search" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="pages.tx_kesearch_label" xml:space="preserve">
+        <source>Search</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_kesearch_tags" xml:space="preserve" approved="yes">
+        <source>Tags for faceted search</source>
+      <target state="translated">Schlagworte für facettierte Suche</target></trans-unit>
+      <trans-unit id="pages.tx_kesearch_resultimage" xml:space="preserve">
+        <source>Search result image</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_kesearch_abstract" xml:space="preserve">
+        <source>Abstract for search result</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.list_type_pi1" xml:space="preserve" approved="yes">
+        <source>Faceted search - Searchbox and Filters</source>
+      <target state="translated">Facettierte Suche - Suchbox und Filter</target></trans-unit>
+      <trans-unit id="tt_content.list_type_pi2" xml:space="preserve" approved="yes">
+        <source>Faceted search - Results</source>
+      <target state="translated">Facettierte Suche - Ergebnisliste</target></trans-unit>
+      <trans-unit id="tt_content.list_type_pi3" xml:space="preserve" approved="yes">
+        <source>Faceted search - Multiselect for Textlinks</source>
+      <target state="translated">Facettierte Suche - Mehrfachauswahl für Textlinks</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters" xml:space="preserve" approved="yes">
+        <source>Filters</source>
+      <target state="translated">Filter</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.rendertype" xml:space="preserve" approved="yes">
+        <source>Rendering type</source>
+      <target state="translated">Darstellungstyp</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.markAllCheckboxes" xml:space="preserve" approved="yes">
+        <source>Mark all checkboxes by default?</source>
+      <target state="translated">Markiere alle Checkboxen als Voreinstellung?</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.options" xml:space="preserve" approved="yes">
+        <source>Filter options</source>
+      <target state="translated">Filteroptionen</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.target_pid" xml:space="preserve" approved="yes">
+        <source>Choose page where to show all filter options</source>
+      <target state="translated">Wählen Sie die Seite, auf der alle Filteroptionen angezeigt werden sollen</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.amount" xml:space="preserve" approved="yes">
+        <source>How many textlinks should be displayed?</source>
+      <target state="translated">Wie viele Textlinks sollen angezeigt werden?</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.shownumberofresults" xml:space="preserve" approved="yes">
+        <source>Show number of results for each filter option?</source>
+      <target state="translated">Anzahl der Ergebnisse pro Filteroption anzeigen?</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.alphabeticalsorting" xml:space="preserve" approved="yes">
+        <source>Sort filteroptions alphabetically?</source>
+      <target state="translated">Filteroptionen alphabetisch sortieren?</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.rendertype" xml:space="preserve" approved="yes">
+        <source>Rendering type</source>
+      <target state="translated">Darstellungstyp</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.rendertype.I.0" xml:space="preserve" approved="yes">
+        <source>Select/Dropdown</source>
+      <target state="translated">Selectbox</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.rendertype.I.1" xml:space="preserve" approved="yes">
+        <source>List/Textlinks</source>
+      <target state="translated">Liste</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.rendertype.I.2" xml:space="preserve" approved="yes">
+        <source>Checkboxes (multiselection OR)</source>
+      <target state="translated">Checkboxen (Mehrfachauswahl ODER)</target></trans-unit>
+      <trans-unit id="tx_kesearch_filters.rendertype.I.3" xml:space="preserve" approved="yes">
+        <source>List/Textlinks with multiselection checkboxes on additional page</source>
+      <target state="translated">Textlinks</target></trans-unit>
+      <trans-unit id="tx_kesearch_filteroptions" xml:space="preserve" approved="yes">
+        <source>Filter options</source>
+      <target state="translated">Filteroptionen</target></trans-unit>
+      <trans-unit id="tx_kesearch_filteroptions.title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="tx_kesearch_filteroptions.tag" xml:space="preserve" approved="yes">
+        <source>Tag</source>
+      <target state="translated">Schlagwort</target></trans-unit>
+      <trans-unit id="tx_kesearch_filteroptions.automated_tagging" xml:space="preserve" approved="yes">
+        <source>Set tag for all children of this page</source>
+      <target state="translated">Schlagwort automatisch für Unterseiten dieser Seite setzen</target></trans-unit>
+      <trans-unit id="tx_kesearch_filteroptions.automated_tagging_exclude" xml:space="preserve" approved="yes">
+        <source>Exclude tag for all children of this page</source>
+      <target state="translated">Schlagwort nicht automatisch für Unterseiten dieser Seite setzen</target></trans-unit>
+      <trans-unit id="tx_kesearch_index" xml:space="preserve" approved="yes">
+        <source>Index</source>
+      <target state="translated">Index</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.relevance" xml:space="preserve" approved="yes">
+        <source>Relevance</source>
+      <target state="translated">Relevanz</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.targetpid" xml:space="preserve" approved="yes">
+        <source>Target PID</source>
+      <target state="translated">Zielseite</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.content" xml:space="preserve" approved="yes">
+        <source>Indexed content</source>
+      <target state="translated">Indizierter Content</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.params" xml:space="preserve" approved="yes">
+        <source>Parameters</source>
+      <target state="translated">Parameter</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.tags" xml:space="preserve" approved="yes">
+        <source>Tags</source>
+      <target state="translated">Schlagworte</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.abstract" xml:space="preserve" approved="yes">
+        <source>Abstract</source>
+      <target state="translated">Zusammenfassung</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.language" xml:space="preserve" approved="yes">
+        <source>Language UID</source>
+      <target state="translated">Sprach-UID</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.sortdate" xml:space="preserve" approved="yes">
+        <source>Date</source>
+      <target state="translated">Datum</target></trans-unit>
+      <trans-unit id="tx_kesearch_index.directory" xml:space="preserve" approved="yes">
+        <source>Directory</source>
+      <target state="translated">Verzeichnis</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig" xml:space="preserve" approved="yes">
+        <source>Indexer Configuration</source>
+      <target state="translated">Indexer Konfiguration</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.storagepid" xml:space="preserve" approved="yes">
+        <source>Record storage page of search data</source>
+      <target state="translated">Datensatzsammlung: Ordner für Suchindex</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.targetpid" xml:space="preserve" approved="yes">
+        <source>Target page for extension content</source>
+      <target state="translated">Zielseite für Erweiterungen</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.startingpoints_recursive" xml:space="preserve" approved="yes">
+        <source>Record storage page(s) of data to be indexed, recursive</source>
+      <target state="translated">Ordner mit zu indexierenden Daten, rekursiv</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.single_pages" xml:space="preserve" approved="yes">
+        <source>Single Pages</source>
+      <target state="translated">Einzelseiten</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.sysfolder" xml:space="preserve" approved="yes">
+        <source>Record storage page(s) of data to be indexed, single</source>
+      <target state="translated">Ordner mit zu indexierenden Daten, einfach</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.0" xml:space="preserve" approved="yes">
+        <source>Pages</source>
+      <target state="translated">Seiten</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.1" xml:space="preserve" approved="yes">
+        <source>Calendar (ke_yac)</source>
+      <target state="translated">Kalendar (ke_yac)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.2" xml:space="preserve" approved="yes">
+        <source>News (tt_news)</source>
+      <target state="translated">Nachrichten (tt_news)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.5" xml:space="preserve" approved="yes">
+        <source>Address records (tt_address)</source>
+      <target state="translated">Adressen (tt_address)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.6" xml:space="preserve" approved="yes">
+        <source>Content records (tt_content)</source>
+      <target state="translated">Inhaltselemente (tt_content)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.7" xml:space="preserve" approved="yes">
+        <source>Files</source>
+      <target state="translated">Dateien</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.8" xml:space="preserve" approved="yes">
+        <source>t3s_content</source>
+      <target state="translated">t3s_content</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.9" xml:space="preserve" approved="yes">
+        <source>TemplaVoila</source>
+      <target state="translated">TemplaVoila</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.10" xml:space="preserve" approved="yes">
+        <source>MM-Forum (mm_forum)</source>
+      <target state="translated">MM-Forum (mm_forum)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.11" xml:space="preserve" approved="yes">
+        <source>Comments (comments)</source>
+      <target state="translated">Kommentare (comments)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.12" xml:space="preserve" approved="yes">
+        <source>News (news)</source>
+      <target state="translated">Nachrichten (news)</target><note>78%</note></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.13" xml:space="preserve" approved="yes">
+        <source>Glossary (a21glossary)</source>
+      <target state="translated">Glossar (a21glossary)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type.I.14" xml:space="preserve" approved="yes">
+        <source>Calendar Base (cal)</source>
+      <target state="translated">Calendar Base (cal)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_content_with_restrictions" xml:space="preserve" approved="yes">
+        <source>Index content elements with restrictions?</source>
+      <target state="translated">Indiziere Inhaltselemente, die einen Zugriffsschutz besitzen?</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_content_with_restrictions.I.0" xml:space="preserve" approved="yes">
+        <source>Yes</source>
+      <target state="translated">Ja</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_content_with_restrictions.I.1" xml:space="preserve" approved="yes">
+        <source>No</source>
+      <target state="translated">Nein</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_passed_events" xml:space="preserve" approved="yes">
+        <source>Index passed events?</source>
+      <target state="translated">Abgelaufene Termine indizieren?</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_category_mode" xml:space="preserve" approved="yes">
+        <source>Index only news of the following categories:</source>
+      <target state="translated">News der folgenden Kategorien indexieren:</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_category_mode.I.1" xml:space="preserve" approved="yes">
+        <source>All</source>
+      <target state="translated">Alle</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_category_mode.I.2" xml:space="preserve" approved="yes">
+        <source>Only the following categories:</source>
+      <target state="translated">Nur die folgenden Kategorien:</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_archived" xml:space="preserve" approved="yes">
+        <source>Archived news settings</source>
+      <target state="translated">Umgang mit archivierten Nachrichten</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_archived.I.0" xml:space="preserve" approved="yes">
+        <source>Index all news</source>
+      <target state="translated">Alle Nachrichten indexieren</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_archived.I.1" xml:space="preserve" approved="yes">
+        <source>Index only active news</source>
+      <target state="translated">Nur aktive Nachrichten indexieren</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_archived.I.2" xml:space="preserve" approved="yes">
+        <source>Index only archived news</source>
+      <target state="translated">Nur archivierte Nachrichten indexieren</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_category_selection" xml:space="preserve" approved="yes">
+        <source>Categories:</source>
+      <target state="translated">Kategorien:</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_news_useHRDatesSingleWithoutDay" xml:space="preserve" approved="yes">
+        <source>Use dates without day for single-view-URLs:</source>
+      <target state="translated">Benutze Datumsangaben ohne Tag für Detailansicht-URLs:</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_use_page_tags" xml:space="preserve" approved="yes">
+        <source>Add tags of parent pages/sys-folders?</source>
+      <target state="translated">Schlagworte der übergeordneten Seite/des Sys-Ordners übernehmen?</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_use_page_tags_for_files" xml:space="preserve" approved="yes">
+        <source>Add tags to files also?</source>
+      <target state="translated">Tags indexierten Dateien ebenfalls hinzufügen?</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_passed_events.I.0" xml:space="preserve" approved="yes">
+        <source>Yes</source>
+      <target state="translated">Ja</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_passed_events.I.1" xml:space="preserve" approved="yes">
+        <source>No</source>
+      <target state="translated">Nein</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.index_page_doctypes" xml:space="preserve">
+        <source>Page types which should be indexed (field:doktype, default: 1,2,5):</source>
+      <target></target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.directories" xml:space="preserve" approved="yes">
+        <source>Directories (comma-separated, e.g. fileadmin/my_directory/,fileadmin/my_other_directory or my_directory/,my_other_directory/ if you use FAL)</source>
+      <target state="translated">Verzeichnisse (kommagetrennt, z. B. fileadmin/my_directory/,filadmin/my_other_directory). Bei FAL-Benutzung: relativ zum Storage, also z. B. my_directory/,my_other_directory/</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.fileext" xml:space="preserve" approved="yes">
+        <source>File indexer: Comma separated list of allowed file extensions (eg. pdf,ppt,doc,xls):</source>
+      <target state="translated">Datei-Indexer: Komma-separierte Liste von zu indexierenden Dateiendungen (z.B. pdf,ppt,doc,xls):</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.contenttypes" xml:space="preserve" approved="yes">
+        <source>Content element types which should be indexed (default: text,textpic,bullets,table,html,header,uploads):</source>
+      <target state="translated">Inhaltselement-Typen, die indexiert werden sollen (Standard: text,textpic,bullets,table,html,header,uploads):</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.commenttypes" xml:space="preserve" approved="yes">
+        <source>Comma separated list of comment types (eg. pages):</source>
+      <target state="translated">Komma-separierte Liste of Kommentartypen (z. B. pages):</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.filteroption" xml:space="preserve" approved="yes">
+        <source>Add tag to all indexed elements:</source>
+      <target state="translated">Allen indexierten Elementen dieses Schlagwort hinzufügen:</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.tvpath" xml:space="preserve" approved="yes">
+        <source>Tell us in which field configuration the indexer can find the tt_content uids. Normally it should be "field_content":</source>
+      <target state="translated">In welchem Feld sind die tt_content UIDs gespeichert? (Normalerweise "field_content")</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.fal_storage" xml:space="preserve" approved="yes">
+        <source>FAL Storage (IMPORTANT: backend user _cli_scheduler needs access to this storage!)</source>
+      <target state="translated">FAL Dateispeicher (Wichtig: Der Backend-Benutzer _cli_scheduler benötigt Zugriff den Dateispeicher!)</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.fal_storage.dont_use_fal" xml:space="preserve" approved="yes">
+        <source>Dont' use FAL (write directories like 'fileadmin/user_upload/')</source>
+      <target state="translated">FAL nicht verwenden (Verzeichnisse wie folgt angeben: 'fileadmin/user_upload/')</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.fal_storage.use_fal" xml:space="preserve" approved="yes">
+        <source>Use FAL (write directories like 'user_upload/')</source>
+      <target state="translated">FAL verwenden (Verzeichnisse wie folgt angeben: 'user_upload/')</target></trans-unit>
+      <trans-unit id="tx_kesearch_indexerconfig.cal_expired_events" xml:space="preserve" approved="yes">
+        <source>Index expired events?</source>
+      <target state="translated">Abgelaufene Termine indexieren?</target></trans-unit>
+    </body>
+  </file>
+</xliff>

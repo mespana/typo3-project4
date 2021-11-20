@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="mlang_tabs_tab"/>
+      <label index="mlang_labels_tabdescr"/>
+      <label index="mlang_labels_tablabel"/>
+      <label index="title"/>
+      <label index="function1"/>
+      <label index="function2"/>
+      <label index="function3"/>
+      <label index="function4"/>
+      <label index="function5"/>
+      <label index="function6"/>
+      <label index="select_a_page"/>
+      <label index="start_indexer"/>
+      <label index="not_allowed_remove_indexer_lock"/>
+      <label index="no_indexer_configurations"/>
+      <label index="index_contains"/>
+      <label index="last_indexing"/>
+      <label index="records"/>
+      <label index="page"/>
+      <label index="type"/>
+      <label index="configurations_found"/>
+      <label index="tag_too_short"/>
+      <label index="tag_too_short_message"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

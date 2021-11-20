@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="wrap.alttitle">Wrap für Frontend-Darstellung</label>
+      <label index="wrap.description">HTML-Code, welcher den HTML-Code umschließt, der zur Anzeige des Filters erstellt wird. Beispiel: &lt;class style="myclass"&gt;|&lt;/div&gt;.</label>
+      <label index="wrap.details"/>
+      <label index="wrap.syntax"/>
+      <label index="wrap.image_descr"/>
+      <label index="wrap.image"/>
+      <label index="wrap.seeAlso"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

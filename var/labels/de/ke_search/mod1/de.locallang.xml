@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="title">Facettierte Suche</label>
+      <label index="function1">Indizierung anstossen</label>
+      <label index="function2">Indizierte Inhalte</label>
+      <label index="function3">Informationen über Index-Tabelle</label>
+      <label index="function4">Suchwort-Statistik</label>
+      <label index="function5">Suchindex leeren</label>
+      <label index="function6">Bericht der letzten Indexierung</label>
+      <label index="select_a_page">Bitte wählen Sie eine Seite aus.</label>
+      <label index="start_indexer">Indexer starten</label>
+      <label index="not_allowed_remove_indexer_lock">Sie haben keine Berechtigung, die Indexersperre zu entfernen! Diese Funktions ist nur für Admins verfügbar!</label>
+      <label index="no_indexer_configurations">Es wurden keine Indexer-Konfigurationen gefunden. Bitte erstellen Sie zunächst eine Indexer-Konfiguration!</label>
+      <label index="index_contains">Der Index enthält derzeit</label>
+      <label index="last_indexing">Die letzte Indexierung wurde durchgeführt am</label>
+      <label index="records">Datensätze</label>
+      <label index="configurations_found">Folgende Indexer-Konfigurationen wurden gefunden:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>
