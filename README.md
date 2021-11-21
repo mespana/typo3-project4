@@ -1,4 +1,4 @@
-# Sitepackage gowords/gql-partner
+# Sitepackage goWords/gql-partner
 
 Launching Website gql-partner 
 
