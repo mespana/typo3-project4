@@ -1,6 +1,6 @@
 # Sitepackage gowords/gql-partner
 
-Launching Website www.gql-partner.de 
+Launching Website gql-partner 
 
 ## Prerequisites
 
