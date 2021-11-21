@@ -4,6 +4,8 @@ Launching Website gql-partner
 
 ## Prerequisites
 
+* Typo3 v10.4
+* Bootstrappackage 
 * PHP 7.4
 * [Composer](https://getcomposer.org/download/)
 * mysql 5.7
@@ -18,4 +20,4 @@ Launching Website gql-partner
 # License
 
 GPL-2.0 or later
-# goWords
+@ goWords
