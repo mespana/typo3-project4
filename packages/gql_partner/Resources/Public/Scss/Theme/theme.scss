@@ -72,8 +72,12 @@ padding-right: 0;
     text-align: center;
   }
 .footer-section-content a:not(.btn) {
-      color:#fff
+    color:#fff
   }
+
+.footer-section-content a:not(.btn):hover, .footer-section-content a:not(.btn):focus {
+    color: goldenrod
+}
 
 .text-column a {
     color: darkgoldenrod;

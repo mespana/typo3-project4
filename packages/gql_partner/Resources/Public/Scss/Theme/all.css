@@ -15,6 +15,10 @@ background-color: #31436B;
 color: #bea34d;
 }
 
+.footer-section-content a:not(.btn):hover, .footer-section-content a:not(.btn):focus {
+color: goldenrod;
+}
+
 .footer-meta .meta-menu li ul {
   text-align: left;
 }
