@@ -1,4 +1,4 @@
-# Sitepackage
+# Sitepackage gowords/gql-partner
 
 Launching Website www.gql-partner.de 
 
@@ -6,6 +6,7 @@ Launching Website www.gql-partner.de
 
 * PHP 7.4
 * [Composer](https://getcomposer.org/download/)
+* mysql 5.7
 
 ## Quickstart
 
@@ -17,4 +18,4 @@ Launching Website www.gql-partner.de
 # License
 
 GPL-2.0 or later
-# typo3-project4
+# goWords
