@@ -1,6 +1,6 @@
-# TYPO3 CMS Base Distribution
+# Sitepackage
 
-Get going quickly with TYPO3 CMS.
+Launching Website www.gql-partner.de 
 
 ## Prerequisites
 
