@@ -7,13 +7,8 @@ Launching Website gql-partner
 * Typo3 v10.4
 * Bootstrappackage 
 * PHP 7.4
-* [Composer](https://getcomposer.org/download/)
+* Composer
 * mysql 5.7
-
-## Quickstart
-
-* `composer create-project typo3/cms-base-distribution project-name ^10`
-* `cd project-name`
 
 
 ```
