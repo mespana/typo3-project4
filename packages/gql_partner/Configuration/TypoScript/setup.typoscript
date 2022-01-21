@@ -118,7 +118,6 @@ plugin.tx_indexedsearch {
 #### KE_SEARCH ####
 ###################
 
-
 ## Create TypoScript Object
 
 lib.headerSearch_plugin = COA_INT
@@ -131,3 +130,21 @@ lib.headerSearch_plugin {
 
     10.loadFlexformsFromOtherCE = 46 // Search form plugin UID
 }
+
+
+##############
+#### NEWS ####
+##############
+
+// load the new template path for NEWS +ext
+// load the new partial path for NEWS +ext
+
+plugin.tx_news {
+    settings {
+        list {
+            media {
+              dummyImage = EXT:gql_partner/Resources/Public/Images/preview-image.jpg
+              }
+              }
+        }
+  }
